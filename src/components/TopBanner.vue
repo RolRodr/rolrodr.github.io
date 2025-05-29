@@ -5,14 +5,14 @@ defineProps<{
 </script>
 
 <template>
-  <div class="bannerWrapper">  
+  <div class="bannerWrapper">
     <div class="greetings">
       <h1 class="green">{{ msg }}</h1>
-      <h3>
-        Data librarian, <br>
-        Software developer, <br>
-        but mainly a people person. <br>
-      </h3>
+      <p>
+        Data librarian, <br />
+        Software developer, <br />
+        but mainly a people person. <br />
+      </p>
     </div>
   </div>
 </template>
@@ -32,19 +32,19 @@ h1 {
   top: -10px;
 }
 
-h3 {
+p {
   font-size: 1.2rem;
 }
 
 .greetings h1,
-.greetings h3 {
+.greetings p {
   text-align: center;
   margin-left: 1rem;
 }
 
 @media (min-width: 1024px) {
   .greetings h1,
-  .greetings h3 {
+  .greetings p {
     text-align: left;
   }
 }

@@ -38,9 +38,9 @@ h2 {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.4rem;
-  color: hsla(160, 100%, 37%, 1);
+  color: var(--green-color);
   border-bottom: 2px solid black;
-  width: fit-content
+  width: fit-content;
 }
 
 @media (min-width: 1024px) {
