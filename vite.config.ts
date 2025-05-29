@@ -12,6 +12,7 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
+  base: process.env.NODE_ENV === "production" ? "/rolrodr.github.io/" : "/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
