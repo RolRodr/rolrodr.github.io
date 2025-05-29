@@ -53,7 +53,11 @@ import WelcomeItem from './ProjectItem.vue'
   </WelcomeItem>
   <WelcomeItem>
     <template #heading>Utility Tools</template>
-    <h3>CSV Wizard</h3>
+    <h3>
+      CSV Wizard [<a href="https://github.com/RolRodr/csvwizard" target="_blank" rel="noopener"
+        >Link</a
+      >]
+    </h3>
     <p>
       <b>Description: </b>Personal project that allows simple transformation to CSVs to play with C#
     </p>
