@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import TopBanner from './components/TopBanner.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import TheWelcome from './components/PortfolioBody.vue'
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import TheWelcome from './components/TheWelcome.vue'
   </header>
 
   <main>
-    <hr/>
+    <hr />
     <TheWelcome />
   </main>
 </template>
@@ -39,10 +39,6 @@ header {
     max-width: 150px;
     max-height: 150px;
     border-radius: 10px;
-    
-
-
   }
-
 }
 </style>
